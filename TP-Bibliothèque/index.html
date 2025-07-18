@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bibliothèque</title>
+    <link rel="stylesheet" href="style2.css" />
+
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <h1>Ma bibliothèque trop stylé</h1>
+
+    <section id="Chercher un livre">
+      <h2>Rechercher un livre</h2>
+
+      <form method="get" id="search-form">
+        <input type="text" id="search-title" placeholder="Titre exact" />
+        <button>Rechercher</button>
+      </form>
+      <p id="search-result"></p>
+    </section>
+
+
+
+
+
+     <section id="Ajouter un livre">
+      <h2>Ajouter un livre</h2>
+
+      <form method="get" id="add-form">
+        <input type="text" id="add-title" placeholder="Titre exact" />
+         <input type="text" id="add-author" placeholder="auteur" />
+        <input type="text" id="add-year" placeholder="année" />
+        <button>Ajouter</button>
+      </form>
+      <p id="add-result"></p>
+    </section>
+
+    
+
+
+
+     <section id="emprunt">
+
+    <h2>Emprunter ou retourner un livre</h2>
+
+    <form method="get" id="borrow-form">
+
+
+    <input type="text" id="borrow-book" placeholder="Titre du livre">
+    <button>Emprunter</button>
+
+    <p id="borrow-result"></p>
+
+    
+    </form>
+
+
+<form id="return-form">
+  <input type="text" id="return-book" placeholder="Titre à retourner" required />
+  <button type="submit">Retourner</button>
+</form>
+<div id="return-result"></div>
+
+
+
+
+
+
+
+  </section>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    <script src="script2.js"></script>
+  </body>
+</html>
